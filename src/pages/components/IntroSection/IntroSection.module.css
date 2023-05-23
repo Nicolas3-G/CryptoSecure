@@ -1,0 +1,56 @@
+.section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 60vh;
+}
+
+.title {
+    font-size: 62px;
+    width: 100%;
+    margin: 0;
+}
+
+.left-side {
+    margin-left: 10vw;
+    margin-top: 100px;
+}
+
+.desc-text {
+    color: rgba(0, 0, 0, 0.489);
+    font-size: 18px;
+    width: 90%;
+}
+
+.button-2 {
+    background: rgb(202,57,239);
+    background: linear-gradient(87deg, rgba(202,57,239,1) 20%, rgba(143,57,251,1) 100%); 
+    border-radius: 20px;
+    border: none;
+    color: white;
+    width: 8vw;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.button-1 {
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+    width: 8vw;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.right-side {
+    display: grid;
+    place-items: center;
+}
+
+.image {
+    width: 70%;
+    height: 90%;
+}

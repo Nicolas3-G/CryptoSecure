@@ -1,0 +1,26 @@
+.holder {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin-left: 10vw;
+    margin-top: 3vh;
+}
+
+.card-desc {
+    color: rgba(0, 0, 0, 0.516);
+    font-size: 14px;
+    margin: 0px;
+}
+
+.card {
+    width: 265px;
+}
+
+.card h2 {
+    margin: 5px 0px;
+}
+
+.image {
+    width: 25px;
+    height: 25px;
+}

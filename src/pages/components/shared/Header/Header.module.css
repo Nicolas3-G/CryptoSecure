@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* purple color: #ca39ef */
+
+.header-div {
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    grid-template-areas: 
+    "title nav buttons";
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.464);
+}
+
+.title-logo-holder {
+    display: flex;
+    margin-left: 50px;
+    color: black;
+    text-decoration: none !important;
+}
+
+.title {
+    margin: 0;
+    font-size: 28px;
+
+}
+
+.logo {
+    margin: auto 0px;
+    width: 40px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.navbar {
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-selected {
+    color: rgb(72, 70, 70);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: grey;
+}
+
+.nav-link:hover {
+    color: rgb(72, 70, 70);
+    cursor: pointer;
+}
+
+.sign-in-button {
+    background: rgb(202,57,239);
+    background: linear-gradient(87deg, rgba(202,57,239,1) 20%, rgba(143,57,251,1) 100%); 
+    border-radius: 20px;
+    border: none;
+    color: white;
+    width: 8vw;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: 50px;
+}
