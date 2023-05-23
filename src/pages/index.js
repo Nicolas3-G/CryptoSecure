@@ -6,7 +6,7 @@ import ThreeCard from './components/shared/ThreeCard/ThreeCard'
 export default function Home() {
   return (
     <>
-      <Header />
+      <Header page="about" />
       <IntroSection />
       <ThreeCard />
 

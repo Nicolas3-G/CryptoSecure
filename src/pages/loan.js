@@ -6,7 +6,7 @@ import LogoWebSection from "./components/LogoWebSection/LogoWebSection";
 const Loan = () => {
     return(
         <>
-            <Header />
+            <Header page="loan" />
             <LoanSection />
             <ThreeCard />
             <hr style={{color: "rgba(180, 180, 180, 0.17)", marginTop: "60px", marginBottom: "50px"}}></hr>

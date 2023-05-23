@@ -47,7 +47,7 @@ const PlansSection = () => {
     return (
         <div className={styles.section}>
             <h2 className={styles.title}>Choose Your Plan</h2>
-            <p className={styles.desc}>CryptoSecure's global payment platform is widely integrated and accepted at over 15,000 mercents. Rest easy knowing you money is good anywhere on the globe and online.</p>
+            <p className={styles.desc}>Choose a plan that suits your financial goals and unlocks a world of possibilities. From basic to premium options, our plans offer tailored features and benefits to enhance your crypto banking experience.</p>
             <div className={styles["card-holder"]}>
                 {cards}
             </div>

@@ -5,7 +5,7 @@ import PlansSection from "./components/shared/PlansSection/PlansSection";
 const Checking = () => {
     return (
         <>
-            <Header />
+            <Header page="checking"/>
             <CardOptions mainTitle="Checking" />
             <hr style={{color: "rgba(180, 180, 180, 0.17)", marginTop: "110px", marginBottom: "90px"}}></hr>
             <PlansSection />

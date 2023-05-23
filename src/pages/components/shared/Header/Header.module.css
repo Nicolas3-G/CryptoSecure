@@ -42,15 +42,14 @@
     margin-right: auto;
 }
 
-.nav-selected {
-    color: rgb(72, 70, 70);
-    cursor: pointer;
-    text-decoration: none;
-}
-
 .nav-link {
     text-decoration: none;
+    cursor: pointer;
     color: grey;
+}
+
+.nav-link.nav-selected {
+    color: rgb(72, 70, 70);
 }
 
 .nav-link:hover {
@@ -69,4 +68,9 @@
     font-weight: 500;
     margin-left: auto;
     margin-right: 50px;
+    transition: transform .3s ease-in-out;
+}
+
+.sign-in-button:hover {
+    transform: translateY(-6px);
 }
