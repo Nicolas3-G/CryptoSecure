@@ -3,9 +3,9 @@ import classNames from "classnames";
 
 const PlansSection = () => {
     const cardArray = [
-        { title: "Basic", highlighted: false, price: "$0" },
-        { title: "Advance", highlighted: false, price: "$49" },
-        { title: "TurboTime", highlighted: true, price: "$99" },
+        { title: "Basic", highlighted: false, price: "$0", priceText:"Free forever", desc: "Basic account with the essentials" },
+        { title: "Advance", highlighted: false, price: "$49", priceText:"Per Month, Per Account", desc: "For users that want access to more features" },
+        { title: "TurboTime", highlighted: true, price: "$99", priceText:"Per Month, Per Account", desc: "Premium account with maximum security" },
     ]
 
     const cards = cardArray.map((card) => {
@@ -15,31 +15,31 @@ const PlansSection = () => {
                     <h3 className={styles["card-title"]}>{card.title}</h3>
                     {card.highlighted && <div className={styles["popular-badge"]}>Popular</div>}
                 </div>
-                <p>Short description will go here about plan.</p>
+                <p>{card.desc}</p>
                 <div className={styles["price-holder"]}>
                     <span className={styles.price}>{card.price}</span>
                     <span className={styles["month-text"]}>/ mo</span>
                 </div>
-                <p>Price desc text will go here</p>
+                <p>{card.priceText}</p>
                 <hr style={{ color: "rgba(227, 226, 226, 0.28)", margin: "30px 0 10px 0" }}></hr>
                 <div className={styles["feature-holder"]}>
                     <img src="check-icon-2.png" className={styles["feature-icon"]} />
-                    <p>Feature will go here</p>
+                    <p>Pay anywhere with 50+ cryptos</p>
                 </div>
                 <div className={styles["feature-holder"]}>
                     <img src="check-icon-2.png" className={styles["feature-icon"]} />
-                    <p>Feature will go here</p>
+                    <p>Buy and sell coins with no fees</p>
                 </div>
                 <div className={styles["feature-holder"]}>
                     <img src="check-icon-2.png" className={styles["feature-icon"]} />
-                    <p>Feature will go here</p>
+                    <p>24/7 live phone assistance</p>
                 </div>
                 {card.highlighted &&
                     <div className={styles["feature-holder"]}>
                         <img src="check-icon-2.png" className={styles["feature-icon"]} />
-                        <p>Feature will go here</p>
+                        <p>Free Monthly Security Audit</p>
                     </div>}
-                <button className={styles.button}>Choose Plan</button>
+                <button className={classNames(styles.button, card.highlighted && styles["highlighted-button"])}>Choose Plan</button>
             </div>
         )
     })
