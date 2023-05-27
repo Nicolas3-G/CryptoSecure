@@ -4,7 +4,21 @@
     width: 70vw;
     margin-left: 10vw;
     margin-top: 3vh;
+    animation: slide-in 2s ease-in-out forwards;
 }
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
+}
+
 
 .card-desc {
     color: rgba(0, 0, 0, 0.516);

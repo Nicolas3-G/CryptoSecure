@@ -32,10 +32,16 @@
     font-size: 14px;
     font-weight: 500;
     margin-left: 20px;
+    transition: transform .3s ease-in-out;
+}
+
+.button-2:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
 }
 
 .button-1 {
-    background: transparent;
+    background-color: transparent;
     border: 2px solid black;
     border-radius: 20px;
     color: black;
@@ -43,6 +49,13 @@
     height: 40px;
     font-size: 14px;
     font-weight: 500;
+    transition: background-color .1s ease-in-out, color .1s ease-in-out;
+}
+
+.button-1:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
 }
 
 .right-side {
@@ -53,4 +66,17 @@
 .image {
     width: 70%;
     height: 90%;
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

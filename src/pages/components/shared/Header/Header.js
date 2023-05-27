@@ -14,10 +14,10 @@ const Header = ({page}) => {
                 <h1 className={styles.title}>CryptoSecure Financial</h1>
             </a>
             <nav className={styles.navbar}>
-                <a href="/" onClick={() => setCurrentPage("about")} className={classNames(styles["nav-link"], currentPage == "about" && styles["nav-selected"])}>About</a>
+                <a href="/" onClick={() => setCurrentPage("home")} className={classNames(styles["nav-link"], currentPage == "home" && styles["nav-selected"])}>Home</a>
+                <a href="/loan" onClick={() => setCurrentPage("loan")} className={classNames(styles["nav-link"], currentPage == "loan" && styles["nav-selected"])}>Loans</a>
                 <a href="/checking" onClick={() => setCurrentPage("checking")} className={classNames(styles["nav-link"], currentPage == "checking" && styles["nav-selected"])}>Checking</a>
                 <a href="/saving" onClick={() => setCurrentPage("saving")} className={classNames(styles["nav-link"], currentPage == "saving" && styles["nav-selected"])}>Saving</a>
-                <a href="/loan" onClick={() => setCurrentPage("loan")} className={classNames(styles["nav-link"], currentPage == "loan" && styles["nav-selected"])}>Loan</a>
                 <span className={styles["nav-link"]}>Invest</span>
                 <span className={styles["nav-link"]}>Crypto</span>
             </nav>

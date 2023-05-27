@@ -4,11 +4,24 @@
     overflow: hidden;
 }
 
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
+}
+
 .title {
     margin-top: 0px;
     margin-bottom: 5px;
     font-size: 40px;
     text-align: center;
+    animation: fade-in 2s ease-in-out forwards;
 }
 
 .desc {
@@ -16,6 +29,7 @@
     text-align: center;
     margin: 0px auto;
     width: 40%;
+    animation: fade-in 2s ease-in-out forwards;
 }
 
 .web {

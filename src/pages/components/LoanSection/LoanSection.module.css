@@ -29,6 +29,12 @@
     font-weight: 500;
 }
 
+.button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
 .calc-holder {
     margin: 50px auto;
     border-radius: 50px;

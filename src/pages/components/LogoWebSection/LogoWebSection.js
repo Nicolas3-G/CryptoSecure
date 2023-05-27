@@ -8,7 +8,7 @@ const LogoWebSection = () => {
             <div className={styles.web}>
                 <div className={styles["row-1"]}>
                     <img className={styles["web-image"]} src="web-images/bank-logo-1.png" />
-                    <img className={styles["web-image"]} src="web-images/google-logo.jpg" />
+                    <img className={styles["web-image"]} src="web-images/adobe-logo.png" />
                     <img className={styles["web-image"]} src="web-images/robinhood-logo.png" />
                     <img className={styles["web-image"]} src="web-images/apple-logo.png" />
                     <img className={styles["web-image"]} src="web-images/chase-logo.png" />
@@ -25,7 +25,7 @@ const LogoWebSection = () => {
                     <img className={styles["web-image"]} src="web-images/zillow-logo.png" />
                     <img className={styles["web-image"]} src="web-images/citi-logo.png" />
                     <img className={styles["web-image"]} src="web-images/expedia-logo.png" />
-                    <img className={styles["web-image"]} src="web-images/reddit-logo.png" />
+                    <img className={styles["web-image"]} src="web-images/linked-logo.png" />
                 </div>
             </div>
         </div>
