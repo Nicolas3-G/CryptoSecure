@@ -8,9 +8,9 @@ const PlansSection = () => {
         { title: "TurboTime", highlighted: true, price: "$99", priceText:"Per Month, Per Account", desc: "Premium account with maximum security" },
     ]
 
-    const cards = cardArray.map((card) => {
+    const cards = cardArray.map((card, idx) => {
         return (
-            <div className={classNames(styles.card, card.highlighted && styles["highlighted-card"])}>
+            <div key={idx} className={classNames(styles.card, card.highlighted && styles["highlighted-card"])}>
                 <div className={styles["card-title-holder"]}>
                     <h3 className={styles["card-title"]}>{card.title}</h3>
                     {card.highlighted && <div className={styles["popular-badge"]}>Popular</div>}

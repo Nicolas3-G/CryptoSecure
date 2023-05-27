@@ -3,8 +3,9 @@ import styles from './CardOptions.module.css';
 const CardOptions = ({ mainTitle }) => {
     
     const OptionCard = ({ title, imageId, desc }) => {
+        let dynamicDelay = `${imageId * .5}s`
         return (
-            <div className={styles.card}>
+            <div className={styles.card} style={{animationDelay: dynamicDelay}}>
                 <img src={`card-images/card-image-${imageId}.jpg`} />
                 <h2>{title}</h2>
                 <p>{desc}</p>
