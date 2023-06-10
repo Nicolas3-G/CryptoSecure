@@ -1,7 +1,7 @@
 .holder {
     display: flex;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 5vw;
     margin-top: 70px;
 }
 
@@ -12,11 +12,12 @@
 
 .desc {
     margin-top: 5px;
+    font-size: 20px;
 }
 
 
 .text-section-holder {
-    width: 25vw;
+    width: 30vw;
 }
 
 .card {

@@ -10,7 +10,7 @@ const IntroSection = () => {
                 <button className={styles["button-2"]}>Create Account</button>
             </div>
             <div className={styles["right-side"]}>
-                <img className={styles.image} src="intro-image.png"/>
+                <img className={styles.image} src="intro-image-3.png"/>
             </div>
         </div>
     )

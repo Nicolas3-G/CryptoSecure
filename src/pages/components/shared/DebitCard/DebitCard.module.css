@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,500;1,600&display=swap');
+
+.card {
+    border-radius: 25px;
+    width: 335px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 75% 25%;
+    overflow: hidden;
+    border: 1px solid black;
+    font-family: "Public Sans", sans-serif;
+    position: absolute;
+}
+
+.card-1 {
+    transform: rotate(3deg) translateY(-15px) translateX(5px);
+}
+
+.card-2 {
+    transform: rotate(-3deg) translateX(-15px);
+}
+
+.card-3 {
+    transform: rotate(-10deg) translateX(-35px) translateY(-8px);
+}
+
+.card-1 .card-top {
+    background-color: black;
+}
+
+.card-2 .card-top {
+    background-color: rgb(202,57,239);
+}
+
+.card-bottom {
+    background-color: black;
+    color: white;
+}
+
+.bottom-line-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+}
+
+.bottom-line-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+.card-type {
+    color: grey;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.card-logo {
+    width: 65px;
+    height: 20px;
+}
+
+.card-top {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background: white;
+    padding: 20px;
+}
+
+.card-top-left-side {
+
+}
+
+.company-logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.company-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.company-name {
+    font-size: 18px;
+    margin-left: 5px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+}
+
+.card-number {
+    transform: rotate(-90deg);
+    width: 250px;
+    position: absolute;
+    bottom: 100px;
+    right: -108px;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.card-top-right-side {
+    position: relative;
+}
+
+.emv-chip {
+    width: 45px;
+    height: 35px;
+    transform: rotate(-90deg);
+    position: relative;
+    left: 35px;
+    top: 10px;
+}
+
+.card-background {
+    height: 220px;
+    place-self: center;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 50px;
+    right: 30px;
+    
+}

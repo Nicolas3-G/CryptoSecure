@@ -1,23 +1,21 @@
 .section {
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 60vh;
+    height: 50vh;
+    margin-left: 5vw;
+    margin-top: 70px;
 }
 
 .title {
     font-size: 62px;
-    width: 100%;
+    width: 80%;
     margin: 0;
 }
 
-.left-side {
-    margin-left: 10vw;
-    margin-top: 100px;
-}
 
 .desc-text {
     color: rgba(0, 0, 0, 0.489);
-    font-size: 18px;
+    font-size: 20px;
     width: 90%;
 }
 
@@ -61,13 +59,15 @@
 .right-side {
     display: grid;
     place-items: center;
+    height: inherit;
 }
 
 .image {
-    width: 70%;
-    height: 90%;
+    height: 85%;
     opacity: 0;
     animation: fade-in 2s ease-in-out forwards;
+    margin-left: 5vw;
+    margin-bottom: 10vh;
 }
 
 @keyframes fade-in {

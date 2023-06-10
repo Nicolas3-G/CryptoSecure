@@ -1,9 +1,9 @@
 .holder {
     display: flex;
     justify-content: space-between;
-    width: 70vw;
-    margin-left: 10vw;
-    margin-top: 3vh;
+    width: 85vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
     animation: slide-in 2s ease-in-out forwards;
 }
 
@@ -22,19 +22,21 @@
 
 .card-desc {
     color: rgba(0, 0, 0, 0.516);
-    font-size: 14px;
+    font-size: 17px;
     margin: 0px;
 }
 
 .card {
-    width: 265px;
+    width: 320px;
+
 }
 
 .card h2 {
     margin: 5px 0px;
+    font-size: 28px;
 }
 
 .image {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }

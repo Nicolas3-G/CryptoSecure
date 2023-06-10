@@ -1,0 +1,71 @@
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 12vh;
+}
+
+.column-1 {
+    margin-top: 2vh;
+}
+
+.column-2 {
+    margin-left: 4vw;
+
+}
+
+.column-1-title {
+    font-size: 80px;
+    margin: 10px 0px;
+}
+
+.column-1-desc {
+    color: rgba(0, 0, 0, 0.489);
+    font-size: 16px;
+    margin: 10px 0px 20px 0px;
+    width: 80%;
+}
+
+.tag-line {
+    margin: 0px;
+    color: rgb(202,57,239);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button {
+    background: rgb(202,57,239);
+    background: linear-gradient(87deg, rgba(202,57,239,1) 20%, rgba(143,57,251,1) 100%); 
+    border-radius: 20px;
+    border: none;
+    color: white;
+    width: 8vw;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+
+    transition: transform .3s ease-in-out;
+}
+
+.bar-image {
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+}
+
+.logo-bar {
+    position: relative;
+}
+
+.currency-count {
+    font-size: 50px;
+    margin: 5px 0px;
+}
+
+.column-3-desc {
+    width: 70%;
+    color: rgba(0, 0, 0, 0.489);
+    font-size: 16px;
+}

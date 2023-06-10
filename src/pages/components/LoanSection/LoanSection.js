@@ -8,7 +8,7 @@ const LoanSection = () => {
                 <p className={styles["desc-text"]}>Get the funds you need without selling your crypto assets. Our Crypto Backed Loans offer a secure and easy way to borrow money using your digital assets as collateral. With our platform, you can get the funds you need quickly and securely without having to worry about the safety of your crypto holdings</p>
                 <button className={styles.button}>Apply Now</button>
             </div>
-            <div>
+            <div className={styles["right-side"]}>
                 <div className={styles["calc-holder"]}>
                     <h3 className={styles["input-title"]}>Loan Amount:</h3>
                     <div className={styles["input-holder"]}>
