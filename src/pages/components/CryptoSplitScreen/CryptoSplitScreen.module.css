@@ -1,0 +1,56 @@
+.section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 90vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.title {
+    font-size: 60px;
+    width: 80%;
+    margin: 0px;
+}
+
+.desc {
+    color: rgba(0, 0, 0, 0.489);
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.list-element {
+    display: grid;
+    padding: 20px 0px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+        "icon desc"
+        "title desc";
+}
+
+.element-desc{
+    grid-area: desc;
+    margin: 0px;
+    font-size: 20px;
+    place-self: center;
+    color: rgba(0, 0, 0, 0.489);
+}
+
+.element-title{
+    grid-area: title;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.element-icon{
+    grid-area: icon;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 30px;
+}
+
+.card-holder {
+    margin-top: 60px;
+    margin-left: 40px;
+}

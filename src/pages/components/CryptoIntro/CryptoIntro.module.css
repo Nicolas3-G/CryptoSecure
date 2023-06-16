@@ -22,9 +22,9 @@
 
 .column-1-desc {
     color: rgba(0, 0, 0, 0.489);
-    font-size: 16px;
+    font-size: 20px;
     margin: 10px 0px 20px 0px;
-    width: 80%;
+    width: 90%;
 }
 
 .tag-line {
@@ -50,13 +50,15 @@
 
 .bar-image {
     border-radius: 100%;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     position: absolute;
 }
 
 .logo-bar {
+    margin-top: 25px;
     position: relative;
+    height: 50px;
 }
 
 .currency-count {
@@ -65,7 +67,16 @@
 }
 
 .column-3-desc {
-    width: 70%;
+    width: 80%;
     color: rgba(0, 0, 0, 0.489);
-    font-size: 16px;
+    font-size: 20px;
+}
+
+.column-3 {
+    margin-left: 4vw;
+}
+
+.payment-accepted-icon {
+    margin-top: 20px;
+    width: 150px;
 }

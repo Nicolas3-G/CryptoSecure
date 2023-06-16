@@ -19,7 +19,7 @@ const Header = ({page}) => {
                 <a href="/checking" onClick={() => setCurrentPage("checking")} className={classNames(styles["nav-link"], currentPage == "checking" && styles["nav-selected"])}>Checking</a>
                 <a href="/saving" onClick={() => setCurrentPage("saving")} className={classNames(styles["nav-link"], currentPage == "saving" && styles["nav-selected"])}>Saving</a>
                 <span className={styles["nav-link"]}>Invest</span>
-                <span className={styles["nav-link"]}>Crypto</span>
+                <a href="/crypto" onClick={() => setCurrentPage("crypto")} className={styles["nav-link"]}>Crypto</a>
             </nav>
             <button className={styles["sign-in-button"]}>Open Account</button>
 
