@@ -25,11 +25,31 @@
     transform: rotate(-10deg) translateX(-35px) translateY(-8px);
 }
 
+.card-4 {
+    transform: rotate(5deg) translateX(160px) translateY(100px);
+}
+
+.card-5 {
+    transform: rotate(5deg) translateX(80px) translateY(50px);
+}
+
+.card-6 {
+    transform: rotate(5deg);
+}
+
 .card-1 .card-top {
     background-color: black;
 }
 
 .card-2 .card-top {
+    background-color: rgb(202,57,239);
+}
+
+.card-4 .card-top {
+    background-color: grey;
+}
+
+.card-5 .card-top {
     background-color: rgb(202,57,239);
 }
 

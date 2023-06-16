@@ -15,7 +15,7 @@ const CryptoIntro = () => {
                 <DebitCard cardNumber="2"/>
                 <DebitCard cardNumber="3"/>
             </div>
-            <div>
+            <div className={styles["column-3"]}>
                 <h2 className={styles["currency-count"]}>50+</h2>
                 <p className={styles["column-3-desc"]}>Payments with over 50 cryptocurrices are supported worldwide.</p>
                 <div className={styles["logo-bar"]}>
@@ -26,6 +26,8 @@ const CryptoIntro = () => {
                     <img className={styles["bar-image"]} style={{left: "25px"}} src="web-images/spotify-logo.png" />
                     <img className={styles["bar-image"]} src="web-images/uber-logo.png" />
                 </div>
+                <img className={styles["payment-accepted-icon"]} src="payment-accepted-icon.png" />
+                <p className={styles["column-3-desc"]}>Payments accepted all across the globe.</p>
             </div>
 
         </div>
