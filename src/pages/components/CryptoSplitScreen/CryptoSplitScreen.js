@@ -29,6 +29,12 @@ const CryptoSplitScreen = () => {
                 </div>
                 <hr style={{ color: "rgba(180, 180, 180, 0.17)", marginTop: "10px", marginBottom: "20px" }}></hr>
                 <div className={styles["list-element"]}>
+                    <img className={styles["element-icon"]} src="connect-icon-2.png" alt="arrow" />
+                    <h3 className={styles["element-title"]}>Connect Wallet</h3>
+                    <p className={styles["element-desc"]}>Experience the future of banking with Cryptosecure Financial.</p>
+                </div>
+                <hr style={{ color: "rgba(180, 180, 180, 0.17)", marginTop: "10px", marginBottom: "20px" }}></hr>
+                <div className={styles["list-element"]}>
                     <img className={styles["element-icon"]} src="money-icon.png" alt="arrow" />
                     <h3 className={styles["element-title"]}>Start Earning</h3>
                     <p className={styles["element-desc"]}>Experience the future of banking with Cryptosecure Financial.</p>

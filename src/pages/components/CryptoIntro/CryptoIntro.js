@@ -17,7 +17,7 @@ const CryptoIntro = () => {
             </div>
             <div className={styles["column-3"]}>
                 <h2 className={styles["currency-count"]}>50+</h2>
-                <p className={styles["column-3-desc"]}>Payments with over 50 cryptocurrices are supported worldwide.</p>
+                <p className={styles["column-3-desc"]}>Payments with over 50 cryptocurrenices are supported worldwide.</p>
                 <div className={styles["logo-bar"]}>
                     <img className={styles["bar-image"]} style={{left: "125px"}} src="web-images/chase-logo.png" />
                     <img className={styles["bar-image"]} style={{left: "100px"}} src="web-images/apple-logo.png" />

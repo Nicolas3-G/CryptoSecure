@@ -1,7 +1,7 @@
 .section {
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 90vh;
+    height: 120vh;
     margin-left: 5vw;
     margin-right: 5vw;
 }
@@ -26,12 +26,14 @@
     grid-template-areas:
         "icon desc"
         "title desc";
+    width: 94.5%;
 }
 
 .element-desc{
     grid-area: desc;
     margin: 0px;
     font-size: 20px;
+    word-wrap: break-word;
     place-self: center;
     color: rgba(0, 0, 0, 0.489);
 }

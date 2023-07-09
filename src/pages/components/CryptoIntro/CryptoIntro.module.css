@@ -44,7 +44,6 @@
     height: 40px;
     font-size: 14px;
     font-weight: 500;
-
     transition: transform .3s ease-in-out;
 }
 
@@ -73,7 +72,7 @@
 }
 
 .column-3 {
-    margin-left: 4vw;
+    margin-left: 5vw;
 }
 
 .payment-accepted-icon {

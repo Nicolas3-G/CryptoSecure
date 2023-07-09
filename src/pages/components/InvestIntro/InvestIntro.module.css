@@ -1,0 +1,86 @@
+.title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.desc {
+    font-size: 18px;
+}
+
+.title-holder {
+    text-align: center;
+}
+
+.option-card {
+    width: 250px;
+    height: 445px;
+    border: 2px solid rgba(138, 131, 131, 0.744);
+    border-radius: 15px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.option-card:hover {
+    border: 2px solid black;
+}
+
+.card-holder {
+    display: grid;
+    margin: 40px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 60vw;
+}
+
+.option-image {
+    width: 70px;
+    height: 70px;
+    margin: 30px auto;
+}
+
+.option-desc {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.option-bullet-holder {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.bullet {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.button {
+    background: rgb(202,57,239);
+    background: linear-gradient(87deg, rgba(202,57,239,1) 20%, rgba(143,57,251,1) 100%); 
+    border-radius: 20px;
+    border: none;
+    color: white;
+    width: 8vw;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: transform .3s ease-in-out;
+}
+
+.see-more-button {
+    margin: 0px auto;
+    border: 2px solid rgba(138, 131, 131, 0.744);
+    display: block;
+    background: transparent;
+    border-radius: 20px;
+    width: 8vw;
+    height: 40px;
+    font-size: 14px;
+    color: rgba(138, 131, 131, 0.744);
+    font-weight: 500;
+    transition: transform .3s ease-in-out;
+}
+
+.see-more-button:hover {
+    border-color: black;
+    color: black;
+}
