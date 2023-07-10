@@ -104,3 +104,27 @@
     border-color: black;
     color: black;
 }
+
+@media (max-width: 568px) {
+    .card-holder {
+        grid-template-columns: 1fr;
+        width: 90vw;
+    }
+
+    .option-card {
+        margin-bottom: 40px;
+    }
+
+    .button {
+        width: 40vw;
+    }
+
+    .see-more-button {
+        width: 40vw;
+    }
+
+    .title-holder {
+        width: 80vw;
+        margin: 0 auto;
+    }
+}

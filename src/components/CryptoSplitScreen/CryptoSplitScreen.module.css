@@ -56,3 +56,20 @@
     margin-top: 60px;
     margin-left: 40px;
 }
+
+@media (max-width: 568px) { 
+    .section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12vh;
+        align-items: center;
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    .card-holder {
+        visibility: hidden;
+        display: none;
+    }
+
+}
