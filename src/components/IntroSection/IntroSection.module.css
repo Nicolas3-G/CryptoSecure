@@ -80,3 +80,40 @@
         opacity: 1;
     }
 }
+
+
+@media (max-width: 568px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+    }
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .right-side {
+        display: flex;
+        align-items: center;
+    }
+
+    .image {
+        width: 80%;
+        margin: 2vh auto;
+    }
+
+    .button-1 {
+        width: 40vw;
+        margin: 0 auto;
+    }
+
+    .button-2 {
+        width: 40vw;
+        margin: 10px auto;
+    }
+}

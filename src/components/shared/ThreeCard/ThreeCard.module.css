@@ -40,3 +40,24 @@
     width: 30px;
     height: 30px;
 }
+
+@media (max-width: 568px) {
+    .holder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        margin-left: 0vw;
+        margin-top: 5vh;
+    }
+
+    .card {
+        width: 65vw;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
