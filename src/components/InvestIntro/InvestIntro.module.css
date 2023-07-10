@@ -29,7 +29,21 @@
     margin: 40px auto;
     grid-template-columns: 1fr 1fr 1fr;
     width: 60vw;
+    opacity: 0;
+    animation: fade-in 1.5s ease-in-out forwards;
 }
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+    
 
 .option-image {
     width: 70px;
@@ -66,8 +80,14 @@
     transition: transform .3s ease-in-out;
 }
 
+.button:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
 .see-more-button {
     margin: 0px auto;
+    margin-bottom: 30px;
     border: 2px solid rgba(138, 131, 131, 0.744);
     display: block;
     background: transparent;

@@ -1,6 +1,6 @@
-import CryptoIntro from "./components/CryptoIntro/CryptoIntro";
-import CryptoSplitScreen from "./components/CryptoSplitScreen/CryptoSplitScreen";
-import Header from "./components/shared/Header/Header";
+import CryptoIntro from "../components/CryptoIntro/CryptoIntro";
+import CryptoSplitScreen from "../components/CryptoSplitScreen/CryptoSplitScreen";
+import Header from "../components/shared/Header/Header";
 
 const Crypto = () => {
     return (

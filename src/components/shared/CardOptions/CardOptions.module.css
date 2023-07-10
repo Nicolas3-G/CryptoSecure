@@ -21,9 +21,9 @@
 }
 
 .card {
-    border: 1px solid black;
-    width: 17vw;
-    height: 37vh;
+    border: 2px solid rgba(75, 73, 73, 0.637);
+    width: 18vw;
+    height: 39vh;
     border-radius: 20px;
     overflow: hidden;
     animation-name: slide-in;
@@ -52,14 +52,14 @@
 
 .card h2 {
     margin: 10px 0 0 15px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .card p {
-    margin: 10px 0 0 15px;
+    margin: 5px 0 0 15px;
     color: gray;
-    font-size: 14px;
-    width: 85%;
+    font-size: 16px;
+    width: 95%;
 }
 
 .card-holder {

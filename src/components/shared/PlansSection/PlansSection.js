@@ -4,7 +4,7 @@ import classNames from "classnames";
 const PlansSection = () => {
     const cardArray = [
         { title: "Basic", highlighted: false, price: "$0", priceText:"Free forever", desc: "Basic account with the essentials" },
-        { title: "Advance", highlighted: false, price: "$49", priceText:"Per Month, Per Account", desc: "For users that want access to more features" },
+        { title: "Advanced", highlighted: false, price: "$49", priceText:"Per Month, Per Account", desc: "For users that want access to more features" },
         { title: "TurboTime", highlighted: true, price: "$99", priceText:"Per Month, Per Account", desc: "Premium account with maximum security" },
     ]
 

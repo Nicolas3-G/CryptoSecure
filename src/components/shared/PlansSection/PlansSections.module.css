@@ -7,15 +7,16 @@
 .title {
     margin-top: 0px;
     margin-bottom: 5px;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
 }
 
 .desc {
-    color: grey;
+    color: gray;
     text-align: center;
-    margin: 0px auto;
-    width: 40%;
+    margin: 5px auto;
+    width: 50%;
+    font-size: 20px;
 }
 
 .card-holder {

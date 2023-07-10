@@ -22,7 +22,7 @@ const InvestIntro = () => {
         <>
             <div className={styles["title-holder"]}>
                 <h1 className={styles.title}>Choose an Investment Option that Fits You</h1>
-                <p className={styles.desc}>With over 40 options, your sure to find a strategy that works with you.</p>
+                <p className={styles.desc}>With over 40 options, you're sure to find a strategy that works with you.</p>
             </div>
             <div className={styles["card-holder"]}>
                 <OptionCard img="home-icon.png" title="Personal" />

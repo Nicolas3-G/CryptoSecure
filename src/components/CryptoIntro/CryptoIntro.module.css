@@ -47,6 +47,11 @@
     transition: transform .3s ease-in-out;
 }
 
+.button:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
 .bar-image {
     border-radius: 100%;
     width: 40px;

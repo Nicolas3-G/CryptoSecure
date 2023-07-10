@@ -1,7 +1,7 @@
-import Header from "./components/shared/Header/Header";
-import LoanSection from "./components/LoanSection/LoanSection";
-import ThreeCard from "./components/shared/ThreeCard/ThreeCard";
-import LogoWebSection from "./components/LogoWebSection/LogoWebSection";
+import Header from "../components/shared/Header/Header";
+import LoanSection from "../components/LoanSection/LoanSection";
+import ThreeCard from "../components/shared/ThreeCard/ThreeCard";
+import LogoWebSection from "../components/LogoWebSection/LogoWebSection";
 
 const Loan = () => {
     return(

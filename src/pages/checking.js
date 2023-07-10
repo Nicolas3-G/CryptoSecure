@@ -1,6 +1,6 @@
-import CardOptions from "./components/shared/CardOptions/CardOptions";
-import Header from "./components/shared/Header/Header";
-import PlansSection from "./components/shared/PlansSection/PlansSection";
+import CardOptions from "../components/shared/CardOptions/CardOptions";
+import Header from "../components/shared/Header/Header";
+import PlansSection from "../components/shared/PlansSection/PlansSection";
 
 const Checking = () => {
     return (
