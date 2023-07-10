@@ -75,6 +75,11 @@
     transform: translateY(-6px);
 }
 
+.mobile-line {
+    display: none;
+    visibility: hidden;
+}
+
 
 @media (max-width: 568px) {
     .header-div {
@@ -85,16 +90,41 @@
 
     .navbar {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        width: 100vw;
+        scrollbar-width: none;
+        overflow-x: auto;
+        margin-bottom: 40px;
     }
 
     .nav-link {
         font-size: 22px;
+        padding: 5px 10px;
     } 
+
+    .mobile-line {
+        display: inline;
+        width: 75%;
+        background-color: rgb(202,57,239);
+        visibility: unset;
+        border-width: 2px;
+        border: none;
+        height: 4px;
+        position: relative;
+        bottom: 30px;
+    }
+
 
     .sign-in-button {
         width: 40vw;
         margin-left: auto;
         margin-right: auto;
+        height: 5vh;
+    }
+
+    .logo {
+        position: absolute;
+        left: 20px;
+
     }
 }

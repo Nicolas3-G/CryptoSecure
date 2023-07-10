@@ -22,6 +22,7 @@ const Header = ({page}) => {
                 <Link href="/saving" onClick={() => setCurrentPage("saving")} className={classNames(styles["nav-link"], currentPage == "saving" && styles["nav-selected"])}>Saving</Link>
                 <Link href="/loan" onClick={() => setCurrentPage("loan")} className={classNames(styles["nav-link"], currentPage == "loan" && styles["nav-selected"])}>Loans</Link>
             </nav>
+            <hr className={styles["mobile-line"]}/>
             <button className={styles["sign-in-button"]}>Open Account</button>
 
         </div>

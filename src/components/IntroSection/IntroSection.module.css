@@ -89,6 +89,7 @@
         height: fit-content;
         align-items: center;
         margin: 0 auto;
+        margin-top: 40px;
     }
 
     .left-side {
