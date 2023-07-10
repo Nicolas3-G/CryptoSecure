@@ -103,3 +103,24 @@
     cursor: pointer;
     transform: translateY(-5px);
 }
+
+@media (max-width: 568px) {
+    .card-holder {
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+
+    .card {
+        width: 80vw;
+        margin-bottom: 40px;
+    }
+
+    .section {
+        height: unset;
+        margin-bottom: 80px;
+    }
+
+    .desc {
+        width: 80vw;
+    }
+}

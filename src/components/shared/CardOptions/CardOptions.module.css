@@ -88,3 +88,40 @@
     cursor: pointer;
     transform: translateY(-5px);
 }
+
+@media (max-width: 568px) {
+    .holder {
+        flex-direction: column;
+        margin: 0;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .desc {
+        width: 80vw;
+
+    }
+
+    .text-section-holder {
+        width: 80vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .button {
+        width: 40vw;
+        margin: 20px auto;
+    }
+
+    .card-holder {
+        margin: 0;
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    .card {
+        width: 70vw;
+        height: 30vh;
+        margin: 20px auto;
+    }
+}

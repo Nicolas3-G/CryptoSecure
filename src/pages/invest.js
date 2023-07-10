@@ -1,4 +1,3 @@
-
 import InvestIntro from "../components/InvestIntro/InvestIntro";
 import Header from "../components/shared/Header/Header";
 
