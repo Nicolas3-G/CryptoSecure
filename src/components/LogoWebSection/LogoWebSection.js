@@ -4,7 +4,7 @@ const LogoWebSection = () => {
     return(
         <div className={styles.section}>
             <h2 className={styles.title}>Widely Integrated</h2>
-            <p className={styles.desc}>CryptoSecure's global payment platform is widely integrated and accepted at over 15,000 mercents. Rest easy knowing you money is good anywhere on the globe and online.</p>
+            <p className={styles.desc}>CryptoSecure&apos;s global payment platform is widely integrated and accepted at over 15,000 mercents. Rest easy knowing you money is good anywhere on the globe and online.</p>
             <div className={styles.web}>
                 <div className={styles["row-1"]}>
                     <img alt="" className={styles["web-image"]} src="web-images/bank-logo-1.png" />
