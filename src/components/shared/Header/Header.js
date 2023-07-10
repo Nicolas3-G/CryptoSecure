@@ -10,10 +10,10 @@ const Header = ({page}) => {
 
     return(
         <div className={styles["header-div"]}>
-            <a href="/" className={styles["title-logo-holder"]}>
+            <Link href="/" className={styles["title-logo-holder"]}>
                 <img className={styles.logo} src="main-logo.png" />
                 <h1 className={styles.title}>CryptoSecure Financial</h1>
-            </a>
+            </Link>
             <nav className={styles.navbar}>
                 <Link href="/" onClick={() => setCurrentPage("home")} className={classNames(styles["nav-link"], currentPage == "home" && styles["nav-selected"])}>Home</Link>
                 <Link href="/invest" onClick={() => setCurrentPage("invest")} className={classNames(styles["nav-link"], currentPage == "invest" && styles["nav-selected"])}>Invest</Link>
