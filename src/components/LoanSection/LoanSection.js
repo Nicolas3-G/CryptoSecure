@@ -32,7 +32,7 @@ const LoanSection = () => {
     const handleSelectOption = (e) => {
         setDisplayOptions(false);
         console.log("CLICKED: ", e.currentTarget.value);
-        setCurrentCurrency(e.target.value);
+        setCurrentCurrency(e.currentTarget.value);
     }
 
     return (
