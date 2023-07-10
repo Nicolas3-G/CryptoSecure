@@ -107,7 +107,6 @@
 @media (max-width: 568px) {
     .card-holder {
         flex-direction: column-reverse;
-        margin-bottom: 40px;
     }
 
     .card {

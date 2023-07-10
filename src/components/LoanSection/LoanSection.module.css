@@ -196,3 +196,29 @@
 .currency-option:hover {
     background-color: rgba(202, 202, 202, 0.656);
 }
+
+@media (max-width: 568px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-side {
+        margin: 0;
+        text-align: center;
+    }
+
+    .desc-text {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .button {
+        width: 40vw;
+    }
+
+    .calc-holder {
+        width: 85vw;
+    }
+    
+}
