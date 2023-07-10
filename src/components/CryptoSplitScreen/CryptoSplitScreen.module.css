@@ -61,9 +61,10 @@
 .card-holder {
     margin-top: 60px;
     margin-left: 40px;
+    width: 100%;
 }
 
-@media (max-width: 568px) { 
+@media (max-width: 1268px) { 
     .section {
         display: flex;
         flex-direction: column;

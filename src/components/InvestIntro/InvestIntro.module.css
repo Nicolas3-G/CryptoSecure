@@ -105,7 +105,7 @@
     color: black;
 }
 
-@media (max-width: 568px) {
+@media (max-width: 1268px) {
     .card-holder {
         grid-template-columns: 1fr;
         width: 90vw;
@@ -116,7 +116,7 @@
     }
 
     .button {
-        width: 40vw;
+        width: 80%;
     }
 
     .see-more-button {
@@ -126,5 +126,11 @@
     .title-holder {
         width: 80vw;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 568px) {
+    .button {
+        width: 40vw;
     }
 }

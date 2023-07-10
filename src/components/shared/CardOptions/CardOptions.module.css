@@ -89,7 +89,7 @@
     transform: translateY(-5px);
 }
 
-@media (max-width: 568px) {
+@media (max-width: 1268px) {
     .holder {
         flex-direction: column;
         margin: 0;
@@ -110,6 +110,7 @@
 
     .button {
         width: 40vw;
+        height: 40px;
         margin: 20px auto;
     }
 
@@ -120,8 +121,16 @@
     }
 
     .card {
+        width: 40vw;
+        height: 300px;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 568px) {
+    .card {
         width: 70vw;
-        height: 33vh;
+        height: 300px;
         margin: 20px auto;
     }
 }

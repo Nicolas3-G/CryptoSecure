@@ -104,14 +104,23 @@
     transform: translateY(-5px);
 }
 
-@media (max-width: 568px) {
+@media (max-width: 1068px) {
+    .section {
+        height: unset;
+    }
+
     .card-holder {
         flex-direction: column-reverse;
     }
 
     .card {
         width: 80vw;
+        height: unset;
         margin-bottom: 40px;
+    }
+
+    .card.highlighted-card {
+        height: unset;
     }
 
     .section {
@@ -120,5 +129,9 @@
 
     .desc {
         width: 80vw;
+    }
+
+    .button {
+        margin-bottom: 20px;
     }
 }

@@ -41,7 +41,7 @@
     height: 30px;
 }
 
-@media (max-width: 568px) {
+@media (max-width: 1468px) {
     .holder {
         display: flex;
         flex-direction: column;

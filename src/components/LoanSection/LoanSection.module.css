@@ -196,7 +196,7 @@
     background-color: rgba(202, 202, 202, 0.656);
 }
 
-@media (max-width: 568px) {
+@media (max-width: 1068px) {
     .section {
         display: flex;
         flex-direction: column;
@@ -218,6 +218,7 @@
 
     .calc-holder {
         width: 85vw;
+        height: unset;
     }
     
 }

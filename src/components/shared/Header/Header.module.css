@@ -81,7 +81,7 @@
 }
 
 
-@media (max-width: 568px) {
+@media (max-width: 1068px) {
     .header-div {
         display: flex;
         flex-direction: column;
@@ -120,7 +120,7 @@
         width: 40vw;
         margin-left: auto;
         margin-right: auto;
-        height: 5vh;
+        height: 40px;
     }
 
     .logo {
