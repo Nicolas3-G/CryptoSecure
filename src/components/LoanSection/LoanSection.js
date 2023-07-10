@@ -6,7 +6,7 @@ const LoanSection = () => {
     const [loanTerm, setLoanTerm] = useState(0);
     const [loanTotal, setLoanTotal] = useState(0);
     const [displayOptions, setDisplayOptions] = useState(false);
-    const [currentCurrency, setCurrentCurrency] = useState('BTC');
+    const [currentCurrency, setCurrentCurrency] = useState('btc');
 
     useEffect(() => {
         const loanTotal = loanAmount / loanTerm;
