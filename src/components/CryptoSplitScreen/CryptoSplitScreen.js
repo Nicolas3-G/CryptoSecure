@@ -5,7 +5,7 @@ const CryptoSplitScreen = () => {
 
     return (
         <div className={styles.section}>
-            <div>
+            <div className={styles["title-holder"]}>
                 <h2 className={styles.title}>Earn rewards paying with Crypto</h2>
                 <div className={styles["card-holder"]}>
                     <DebitCard cardNumber="4" />

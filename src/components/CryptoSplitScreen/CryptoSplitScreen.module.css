@@ -12,6 +12,12 @@
     margin: 0px;
 }
 
+.title-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .desc {
     color: rgba(0, 0, 0, 0.489);
     font-size: 20px;
@@ -61,15 +67,20 @@
     .section {
         display: flex;
         flex-direction: column;
-        margin-top: 12vh;
+        margin: 0;
         align-items: center;
         text-align: center;
         overflow-x: hidden;
+        height: unset;
     }
 
     .card-holder {
         visibility: hidden;
         display: none;
+    }
+
+    .list-element {
+        place-items: center;
     }
 
 }
